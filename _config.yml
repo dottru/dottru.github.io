@@ -1,0 +1,18 @@
+# Template used from
+# https://github.com/plusjade/jekyll-bootstrap/blob/master/_config.yml
+
+pygments: true
+title: dot | showcase
+tagline: because programming is hard
+author:
+  name: Michael Watson
+  email: dottru@gmail.com
+  github: jmkogut
+production_url: http://dottru.github.io
+BASE_PATH: false
+analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-43844239-1'
+sharing:
+  provider: false
