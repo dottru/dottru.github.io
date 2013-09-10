@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Landing Page Layout Example &ndash; Pure</title>
+    <title>dottru | about</title>
 
     
 
@@ -20,9 +20,6 @@
 
 
 <link rel="stylesheet" href="style.css">
-
-
-
 
     
 <script src="http://use.typekit.net/ajf8ggy.js"></script>
@@ -52,14 +49,14 @@ ga('send', 'pageview');
 <div class="content">
     <div class="header">
         <div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
-            <a class="pure-menu-heading" href="">Your Site</a>
+            <a class="pure-menu-heading" href="">projects</a>
 
             <ul>
-                <li class="pure-menu-selected"><a href="#">Home</a></li>
-                <li><a href="#">Tour</a></li>
-                <li><a href="#">API</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
+                <li class="pure-menu-selected"><a href="#">About</a></li>
+                <li><a href="#">Interests</a></li>
+                <li><a href="#">In-Progress</a></li>
+                <li><a href="#">Archived</a></li>
+                <li><a href="#">Demos</a></li>
             </ul>
         </div>
     </div>
@@ -95,12 +92,17 @@ ga('send', 'pageview');
         <div class="pure-g-r content-ribbon">
             <div class="pure-u-2-3">
                 <div class="l-box">
-                    <h4 class="content-subhead">Some small text</h4>
+                    <h4 class="content-subhead">Edit your test file.</h4>
 
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <p>
-                        Pellentesque hendrerit lobortis ornare. Fusce luctus imperdiet consequat. Nullam quis nunc quis ligula luctus vestibulum non quis libero. Suspendisse tristique nisl ut velit facilisis sit amet lobortis nulla pharetra.
-                    </p>
+                    <h3>(you know where this goes)</h3>
+                    <form class="pure-form-stacked" onsubmit="return SaveFile();">
+                      <fieldset>
+                        <label for="content">Content</label>
+                        <textarea id="content" placeholder="[Enter content here.]"></textarea>
+                        <button id="savefile" type="submit" class="pure-button pure-button-primary">Save</button>
+                      </fieldset>
+                    </form>
+
                 </div>
             </div>
 
